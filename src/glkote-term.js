@@ -20,6 +20,7 @@ class GlkOte
 		this.generation = 0
 		this.interface = null
 		this.version = require( '../package.json' ).version
+		this.discord_send = null
 	}
 
 	getinterface()
@@ -38,6 +39,7 @@ class GlkOte
 			this.error( 'The game interface object must have an accept() function.' )
 		}
 		this.interface = iface
+		this.discord_send = iface.discord_send
 
 		this.current_metrics = this.measure_window()
 

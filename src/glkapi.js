@@ -6354,13 +6354,9 @@ var api = {
     glk_stream_open_resource : glk_stream_open_resource,
     glk_stream_open_resource_uni : glk_stream_open_resource_uni
 };
-
-if (typeof module !== 'undefined' && module.exports) {
-    module.exports = api;
+return api;
 }
 
-return api;
-
-}();
+module.exports = Glk;
 
 /* End of Glk library. */
