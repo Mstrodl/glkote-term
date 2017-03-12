@@ -1,16 +1,16 @@
 {
-  "name": "glkote-term",
-  "version": "0.3.0",
-  "description": "Javascript terminal implementation of GlkOte",
-  "author": "Dannii Willis <curiousdannii@gmail.com>",
+  "name": "glkote-discord",
+  "version": "0.1.0",
+  "description": "Javascript Discord implementation of GlkOte",
+  "author": "heatingdevice <ipadlover8322@gmail.com>",
   "license": "MIT",
   "keywords": [
     "intfiction"
   ],
   "main": "src/index.js",
-  "repository": "curiousdannii/glkote-term.git",
-  "bugs": "https://github.com/curiousdannii/glkote-term/issues",
-  "homepage": "https://github.com/curiousdannii/glkote-term",
+  "repository": "mstrodl/glkote-term.git",
+  "bugs": "https://github.com/mstrodl/glkote-term/issues",
+  "homepage": "https://github.com/mstrodl/glkote-term",
   "engines": {
     "node": ">=6.0.0"
   },
